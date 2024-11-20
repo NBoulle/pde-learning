@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7701683.svg)](https://doi.org/10.5281/zenodo.7701683)
 
-This repository provides data and code for the paper N. Boull\'e, D. Halikias, and A. Townsend, Elliptic PDE learning is provably data-efficient, arxiv:2302.12888. We compare the performance of three PDE learning techniques ([DeepONet](https://www.nature.com/articles/s42256-021-00302-5), [Fourier neural operator](https://arxiv.org/abs/2010.08895), and [GreenLearning](https://www.nature.com/articles/s41598-022-08745-5)) at recovering the solution operator of the 2D Poisson equation from input-output pairs with respect to the size of the training dataset.
+This repository provides data and code for the paper N. Boull\'e, D. Halikias, and A. Townsend, [Elliptic PDE learning is provably data-efficient](https://www.pnas.org/doi/abs/10.1073/pnas.2303904120), PNAS, 2023. We compare the performance of three PDE learning techniques ([DeepONet](https://www.nature.com/articles/s42256-021-00302-5), [Fourier neural operator](https://arxiv.org/abs/2010.08895), and [GreenLearning](https://www.nature.com/articles/s41598-022-08745-5)) at recovering the solution operator of the 2D Poisson equation from input-output pairs with respect to the size of the training dataset.
 
 ![](results/plot_error.png)
 
@@ -25,7 +25,10 @@ The csv files in the results folder provide the average and standard deviation e
 @article{boulle2023elliptic,
 title={Elliptic PDE learning is provably data-efficient},
 author={Boull{\'e}, Nicolas and Halikias, Diana and Townsend, Alex},
-journal={arxiv:2302.12888},
-year={2023}
+journal={Proceedings of the National Academy of Sciences},
+issue={120},
+number={39},
+year={2023},
+pages={e2303904120}
 }
 ```
